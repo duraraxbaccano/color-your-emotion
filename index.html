@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Mark and color your sentimental or emotional words and texts with Sentiment Lexicon">
+    <meta name="author" content="YAN TING LIN">
+
+    <title>Mark your emotional word</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <style>
+      .footer {
+        padding: 40px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+
+      <div class="starter-template">
+        <h1>Mark your emotional word</h1>
+        <p class="lead">This page helps you to mark all your input of emotional words with Sentiment Lexicon built by <a href="https://github.com/jeffreybreen/twitter-sentiment-analysis-tutorial-201107">twitter-sentiment analysis</a></p>
+      </div>
+      
+      <div class="row">
+        <div class="col-md-6">
+          <h4>Input</h4>
+          <textarea name="input" id="input" cols="80" rows="10"></textarea>
+          <br>
+          <h4>Output</h4>
+          <textarea name="output" id="output" cols="80" rows="10">
+          </textarea>
+        </div>
+
+        <div class="col-md-6">
+          <h4>It Looks like</h4>
+          <div id="result">
+            
+          </div>
+        </div>
+      </div>
+
+    </div><!-- /.container -->
+    
+    <div class="footer">
+      <h4>Special Thanks</h4>
+      <p>
+        The contributor of <a href="https://github.com/jeffreybreen/twitter-sentiment-analysis-tutorial-201107/tree/master/data/opinion-lexicon-English">sentiment lexicon</a> 
+        <ol>https://github.com/jeffreybreen/twitter-sentiment-analysis-tutorial-201107/tree/master/data/opinion-lexicon-English</ol>
+      </p> 
+    </div>
+    
+    <script src="js/mark-sentiments.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+      window.onload = function () {
+
+      };
+    </script>
+  </body>
+</html>
